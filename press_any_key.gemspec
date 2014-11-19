@@ -16,5 +16,7 @@ Gem::Specification.new do |gem|
   gem.files       = ['lib/press_any_key.rb']
   gem.test_files  = gem.files.grep(/spec\//)
 
+  gem.add_dependency 'io-console', '~> 0.4.2'
+  gem.add_development_dependency 'rake', '~> 10.3.2'
   gem.add_development_dependency 'rspec', '~> 3.0'
 end
